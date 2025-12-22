@@ -13,7 +13,7 @@ In practice, this leads to several recurring issues:
 1. Users must manually locate and remember a locker number among many visually identical lockers
 2. Forgotten PINs or keys render lockers inaccessible without staff intervention
 3. Lockers are frequently left in an “occupied” state despite no active user, reducing availability and creating ambiguity
-4. Staff have no reliable, real-time mechanism to determine locker state or safely reclaim abandoned lockers until end-of-day cleaning.
+4. Staff have no reliable, real-time mechanism to determine locker state or safely reclaim abandoned lockers until end-of-day cleaning
 
 These problems stem from the absence of identity-bound access control and deterministic system state in conventional locker infrastructure.
 
