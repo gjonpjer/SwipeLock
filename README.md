@@ -4,6 +4,21 @@
 SwipeLock is a fully integrated embedded locker system that authenticates users via magnetic card swipe, provides an interactive touchscreen UI, and controls a physical solenoid-based locking mechanism. The system was designed, built, and demonstrated as a hardware–software co-design project.
 
 ---
+## Background
+
+Shared locker systems in university gyms suffer from a combination of usability, reliability, and state-management failures. 
+Traditional locker designs rely on users remembering numeric identifiers or PINs, while offering no system-level awareness of locker ownership, abandonment, or misuse.
+In practice, this leads to several recurring issues:
+
+1. Users must manually locate and remember a locker number among many visually identical lockers
+2. Forgotten PINs or keys render lockers inaccessible without staff intervention
+3. Lockers are frequently left in an “occupied” state despite no active user, reducing availability and creating ambiguity
+4. Staff have no reliable, real-time mechanism to determine locker state or safely reclaim abandoned lockers until end-of-day cleaning.
+
+These problems stem from the absence of identity-bound access control and deterministic system state in conventional locker infrastructure.
+
+SwipeLock is a solution to these problems, acting as a simple yet complex interface 
+that handles both the usability and functionality of gym lockers. 
 
 ## Overview
 
